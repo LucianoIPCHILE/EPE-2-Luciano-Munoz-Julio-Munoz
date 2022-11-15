@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(#121212, #24282b 56%);
+}
+
+.menu {
+  background: #0a0a0a;
+}
+
+.menu a {
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.menu a:hover {
+  background: #21aae3;
+  color: #000000;
+}
+
+a, h1, h2, h4, p {
+  font-family: Almarai, sans-serif;
+}
+
+.modalDetalles p {
+  color: initial;
+}
+
+#banner {
+  height: 100vh;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+  padding-top: 20%;
+  background: linear-gradient(-90deg, #00000000 0%, #000000 68%), url("../../assets/img/banner.jpg");
+  background-size: auto, cover;
+}
+
+#banner h1, p {
+  color: #ffffff;
+}
+
+.contenido {
+  height: 100vh;
+  padding-top: 5%;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+}
+
+.formulario {
+  height: 150vh;
+  padding-top: 5%;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+}
+
+.formulario p {
+  color: initial;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+
+#botonCatalogo, #botonFormulario {
+  background: #21aae3;
+  font-family: Almarai, sans-serif;
+  border-color: #21aae3;
+}
+
+.portada {
+  text-align: center;
+}
+
+.botonDetalles {
+  margin-top: 5%;
+  background: #21aae3;
+  font-family: Almarai, sans-serif;
+  border-color: #21aae3;
+}
+
+.footer {
+  text-align: center;
+  background: #0a0a0a;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+#comentario {
+  margin-top: 5%;
+  resize: none;
+}
+

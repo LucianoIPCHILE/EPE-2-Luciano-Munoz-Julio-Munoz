@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>EPE 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almarai&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md menu">
+            <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="contenido">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 portada"><img class="border rounded border-3 border-secondary shadow-lg bordePortada" src="assets/img/Black%20Adam.jpg" width="239" height="377"></div>
+                <div class="col-md-4 portada"><img class="border rounded border-3 border-secondary shadow-lg" src="assets/img/Sin%20Novedad%20en%20el%20Frente.jpg" width="239" height="377"></div>
+                <div class="col-md-4 portada"><img class="border rounded border-3 border-secondary shadow-lg" src="assets/img/Halloween%20el%20Final.jpg" width="239" height="377"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 portada"><button class="btn btn-primary botonDetalles" type="button" data-bs-target="#modalBlackAdam" data-bs-toggle="modal">Ver detalles</button></div>
+                <div class="col-md-4 portada"><button class="btn btn-primary botonDetalles" type="button" data-bs-target="#modalSinNovedad" data-bs-toggle="modal">Ver detalles</button></div>
+                <div class="col-md-4 portada"><button class="btn btn-primary botonDetalles" type="button" data-bs-target="#modalHalloween" data-bs-toggle="modal">Ver detalles</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Filmax (c) 2022 - Todos los derechos reservados.<br></p>
+    </div>
+    <form action="formulario.jsp" method="post">
+        <div class="modal fade modalDetalles" role="dialog" tabindex="-1" id="modalBlackAdam">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><input class="form-control-plaintext" type="text" value="Black Adam" readonly="" name="nombrePelicula"></h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Dirección: </strong>Jaume Collet-Serra<br><br><strong>Guión: </strong>Adam Sztykiel, Rory Haines<br><br><strong>Reparto: </strong>Dwayne Johnson, Aldis Hodge, Noah Centineo, Sarah Shahi, Marwan Kenzari, Quintessa Swindell, Bodhi Sabongui, Pierce Brosnan<br><br><strong>Sinopsis:&nbsp;</strong>Black Adam&nbsp;es la película del antihéroe de DC Comics que da nombre al filme -encarnado por Dwayne Johnson- gran antagonista de Shazam!. Este largometraje es la hisotoria de su origen y revelando su pasado como esclavo en el país Kahndaq. Nacido en el Antiguo Egipto, Black Adam tiene superfuerza, velocidad, resistencia, la capacidad de volar y disparar rayos. Alter ego de Teth-Adam e hijo del faraón Ramsés II, fue consumido por sus poderes mágicos y se transformó en un hechicero. Gran enemigo de Shazam! en los cómics, a pesar de creer en su potencial e incluso ofrecerlo como guerrero del bien, Black Adam acaba utilizando sus habilidades especiales para el mal. Sin embargo, un grupo de héroes conocido como la JSA encabezados por Doctor Fate (Pierce Brosnan) tratarán que el peligroso superhumano busque la redención y pase a utilizar sus poderes para hacer el bien, ievocando a la humanidad que alguna vez habitó en su interior.<br><br><br></p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Cerrar</button><button class="btn btn-primary" type="submit">Alquilar</button></div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form action="formulario.jsp" method="post">
+        <div class="modal fade modalDetalles" role="dialog" tabindex="-1" id="modalSinNovedad">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><input class="form-control-plaintext" type="text" value="Sin Novedad en el Frente" readonly="" name="nombrePelicula"></h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Dirección: </strong>Edward Berger<br><br><strong>Guión: </strong>Erich Maria Remarque, Iian Stokell<br><br><strong>Reparto: </strong>Albrecht Schuch, Aaron Hilmer, Moritz Klaus<br><br><strong>Sinopsis:&nbsp;</strong>Un jóven con fuertes convicciones nacionalistas es reclutado cuando estalla la Primera Guerra Mundial por el ejército alemán. Es enviado al frente occidental junto con la mayoría de su clase. Durante el combate, sufre fuertes traumas y vive aterrorizado con morir en tierra de nadie.<br></p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Cerrar</button><button class="btn btn-primary" type="submit">Alquilar</button></div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form action="formulario.jsp" method="post">
+        <div class="modal fade modalDetalles" role="dialog" tabindex="-1" id="modalHalloween">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><input class="form-control-plaintext" type="text" value="Halloween el Final" readonly="" name="nombrePelicula"></h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Dirección: </strong>David Gordon Green<br><br><strong>Guión: </strong>Chris Bernier, John Carpenter<br><br><strong>Reparto: </strong>Jamie Lee Curtis, Andi Matichak, Rohan Campbell<br><br><strong>Sinopsis:&nbsp;</strong>Enfrentamiento final entre Laurie Strode (Jamie Lee Curtis) y su viejo enemigo Michael Myers, esa figura enmascarada que la ha perseguido desde que escapó de la fatídica noche de Halloween de hace cuatro décadas. Esta película producida por Blumhouse supone el final de la saga formada por los filmes&nbsp;La noche de Halloween&nbsp;(2018) y&nbsp;Halloween Kills&nbsp;(2020), basados en el clásico de terror de 1978 dirigido por John Carpenter.<br></p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Cerrar</button><button class="btn btn-primary" type="submit">Alquilar</button></div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
